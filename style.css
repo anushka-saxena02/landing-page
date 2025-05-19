@@ -1,0 +1,253 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 216, 216);
+    height: 100px;
+}
+.logo{
+    margin-right: 30rem;
+    
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+.logo img{
+    width: 45%;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3.5rem;
+    
+}
+nav a{
+    text-decoration: none;
+    color:rgba(82, 41, 121, 0.726)
+}
+nav a:hover{
+        color:rgba(37, 22, 51, 0.774);
+        text-decoration: underline;
+        
+
+}
+.section{
+    display: flex;
+  align-items: center;
+    justify-content: space-between ;
+   
+  padding: 40px;
+
+
+}
+.section-box{
+    flex:1;
+    text-align: center;
+    gap: 3rem;
+}
+.section-box h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.section-box h3{
+    font-size: 1.5rem;
+}
+.image{
+    width: 400px;
+    height: auto;
+    padding-right: 6rem;
+}
+.contanier{
+    display: flex;
+    justify-content: space-evenly;
+    height: 32rem;
+
+    
+
+}
+.contanier-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(219, 211, 219, 0.192);
+
+}
+.text{
+    height: 30rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5rem;
+    background-color: rgba(185, 143, 185, 0.288);
+    border: 2px solid rgba(139, 43, 139, 0.568);
+    border-radius: 4px;
+}
+.text h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.text p{
+    font-size: 1rem;
+    
+}
+.image2 img{
+    width: 80%;
+      padding-left: 2rem; 
+    margin-top: 4rem;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(85, 26, 163, 0.377);
+    margin-bottom: 3rem;
+    
+    
+
+}
+.intern-box{
+    height: 35rem;
+    
+      display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5rem;   
+    
+    border-radius: 4px;
+}
+.intern-box h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.intern-box p{
+    font-size: 1.2rem;
+    padding-right: 6rem;
+    
+}
+.image3 img{
+    width: 80%;
+      padding-left: 2rem; 
+    margin-top: 4rem;
+}
+.point{
+    margin: auto;
+    background-color: #e0edff;
+    height: 15rem;
+    border-radius: 3px;
+}
+.point h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+    }
+.point p{
+    font-size: 20px;
+    left: 7rem;
+    padding-left: 3rem;
+}
+
+.point  li {
+    font-size: 18px;
+    
+
+}
+.cta{
+    background-color: #e0edff;
+    text-align: center;
+    padding: 50px 20px;
+}
+.cta-button{
+    margin-top: 25px;
+}
+.apply-btn{
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+.apply-btn:hover{
+      background-color:#0e2880;
+}
+.learn-btn{
+ display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+
+}
+.learn-btn:hover{
+          background-color: #0e2880;
+
+}
+.footer{
+    background-color: #f5f7fafa;
+
+    
+    
+}
+.footer h4{
+    font-size: 1.5rem;
+    font-weight:bold ;
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+.contact-item{
+    display: flex;
+    flex-direction:column;
+    margin: 10px 0;
+    gap: 10px;
+    padding-left: 3rem;
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+    cursor: pointer;
+}
+.contact-icon img{
+    width: 30px;
+    height: 30px;
+    background-color: #e0edff9a;
+    border-radius: 50%;
+    
+
+}
+.contact-icon img :hover{
+    background-color: #5d646da2;
+}
+.contact-icon  a{
+    color:#0073e6;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+.contact-icon a:hover{
+    text-decoration: underline;
+}
+.logo2{
+    padding-right: 30rem;
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5rem;
+
+}
+.logo2 img{
+    width: 15%;
+}
